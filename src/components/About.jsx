@@ -6,7 +6,7 @@ function About() {
 
         <div className="about-image">
           <img
-            src="/about.jpg"
+            src="/about.png"
             alt="Travel experience"
           />
         </div>
@@ -14,7 +14,7 @@ function About() {
         <div className="about-content">
 
           <p className="section-label">
-            ABOUT SUVERNA
+            ABOUT SUVARNA TOURS & PACKAGES
           </p>
 
           <h2>
@@ -23,7 +23,7 @@ function About() {
           </h2>
 
           <p className="about-text">
-            At Suverna Trip Planners, we believe every journey
+            At Suvarna Trip Planners, we believe every journey
             should be planned around the people taking it.
             From family holidays and college trips to
             customized adventures across India, we help turn

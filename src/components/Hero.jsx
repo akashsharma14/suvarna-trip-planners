@@ -42,7 +42,7 @@ function Hero() {
       <div className="hero-content">
 
         <p className="hero-label">
-          SUVERNA TRIP PLANNERS
+          SUVaRNA TRIP PLANNERS
         </p>
 
         <h1>

@@ -1,11 +1,19 @@
+import logo from "../assets/logo.png";
 function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-container">
 
-        <a href="#" className="logo">
-          Suvarna
-        </a>
+<div className="logo">
+  <a href="#home">
+    <img src={logo} alt="Suvarna Trip Planners" />
+  </a>
+
+  <a href="#home" className="logo-name">
+    Suvarna Tours & Packages
+  </a>
+</div>
+        
 
         <nav className="nav-links">
           <a href="#home">Home</a>
