@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-   server: {
-    allowedHosts: ['devoutly-repaying-unexpired.ngrok-free.dev'],
-   }
+  server: {
+    allowedHosts: ['amino-atrocious-granny.ngrok-free.dev'],
+  }
 })

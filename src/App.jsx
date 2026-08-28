@@ -7,22 +7,25 @@ import Gallery from "./components/Gallery";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Destinations />
-      <Gallery />
-      <WhyChooseUs />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Destinations />
+        <Gallery />
+        <WhyChooseUs />
+        <Contact />
+      </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }
 
-export default App;
+export default App;

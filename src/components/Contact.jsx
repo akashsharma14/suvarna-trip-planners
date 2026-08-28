@@ -4,85 +4,96 @@ function Contact() {
   return (
     <section className="contact" id="contact">
       <Reveal>
+        <div className="contact-container">
+          <div className="contact-content">
+            <div className="section-tag section-tag-light">
+              <span className="tag-dot"></span>
+              <span>GET IN TOUCH</span>
+            </div>
 
-      <div className="contact-container">
+            <h2>
+              Where do you
+              <span className="serif-highlight">want to go?</span>
+            </h2>
 
-        <div className="contact-content">
-
-          <p className="section-label">
-            LET'S TRAVEL
-          </p>
-
-          <h2>
-            Where do you
-            <span>want to go?</span>
-          </h2>
-
-          <p className="contact-description">
-            Tell us your destination, your plans, or simply
-            where you'd like to go. We'll help you turn the
-            idea into a journey.
-          </p>
-
-          <div className="contact-buttons">
-
-            <a
-              href="https://wa.me/918970809315"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-button whatsapp"
-            >
-              WhatsApp Us
-              <span>↗</span>
-            </a>
-
-            <a
-              href="tel:+918970809315"
-              className="contact-button call"
-            >
-              Call Us
-              <span>↗</span>
-            </a>
-
-          </div>
-
-        </div>
-
-
-        <div className="contact-info">
-
-          <div className="contact-item">
-            <span>PHONE</span>
-
-            <a href="tel:+918970809315">
-              8970809315
-            </a>
-          </div>
-
-
-          <div className="contact-item">
-            <span>EMAIL</span>
-
-            <a href="mailto:sagarsuvarna777@gmail.com">
-              sagarsuvarna777@gmail.com
-            </a>
-          </div>
-
-
-          <div className="contact-item">
-            <span>LOCATION</span>
-
-            <p>
-              Haleyangadi, Karnataka
+            <p className="contact-description">
+              Tell us your destination, travel dates, or group size. Our dedicated travel 
+              specialists will build a personalized itinerary that matches your vision and budget.
             </p>
+
+            <div className="contact-buttons">
+              <a
+                href="https://wa.me/918970809315?text=Hello%20Suvarna%20Trip%20Planners,%20I%20would%20like%20to%20plan%20a%20trip!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-whatsapp"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-5.705 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.316 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.818-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                <span>WhatsApp Us</span>
+                <span className="btn-arrow-right">↗</span>
+              </a>
+
+              <a
+                href="tel:+918970809315"
+                className="btn-call"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span>Call Directly</span>
+                <span className="btn-arrow-right">↗</span>
+              </a>
+            </div>
           </div>
 
-        </div>
+          <div className="contact-cards-grid">
+            <a href="tel:+918970809315" className="contact-card">
+              <div className="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div className="contact-card-text">
+                <span className="contact-card-label">PHONE NUMBER</span>
+                <strong>+91 8970809315</strong>
+                <span className="contact-card-hint">Tap to call anytime</span>
+              </div>
+            </a>
 
-      </div>
-    </Reveal>
+            <a href="mailto:sagarsuvarna777@gmail.com" className="contact-card">
+              <div className="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div className="contact-card-text">
+                <span className="contact-card-label">EMAIL ADDRESS</span>
+                <strong>sagarsuvarna777@gmail.com</strong>
+                <span className="contact-card-hint">Quick response guaranteed</span>
+              </div>
+            </a>
+
+            <div className="contact-card">
+              <div className="contact-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div className="contact-card-text">
+                <span className="contact-card-label">HEADQUARTERS</span>
+                <strong>Haleyangadi, Karnataka</strong>
+                <span className="contact-card-hint">Serving travelers pan-India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }
 
-export default Contact;
+export default Contact;
