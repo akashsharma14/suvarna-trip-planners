@@ -1,49 +1,61 @@
+import Reveal from "./Reveal";
+
 function About() {
   return (
     <section className="about" id="about">
 
-      <div className="about-container">
+      <Reveal>
+        <div className="about-container">
 
-        <div className="about-image">
-          <img
-            src="/about.png"
-            alt="Travel experience"
-          />
+          {/* Image */}
+          <div className="about-image">
+            <img
+              src="/about.png"
+              alt="Suvarna Trip Planners travel experience"
+            />
+          </div>
+
+
+          {/* Content */}
+          <div className="about-content">
+
+            <p className="section-label">
+              ABOUT SUVERNA
+            </p>
+
+            <h2>
+              More than a trip.
+              <span>A journey to remember.</span>
+            </h2>
+
+            <p className="about-main-text">
+              Suverna Trip Planners helps you discover and
+              experience destinations across India with travel
+              plans built around your needs.
+            </p>
+
+            <p>
+              Whether you're planning a family holiday, a school
+              or college trip, a group tour or simply looking for
+              a getaway, we help arrange the important details —
+              from transportation and accommodation to the
+              journey itself.
+            </p>
+
+            <p>
+              Tell us where you want to go. We'll help you plan
+              the rest.
+            </p>
+
+            <a href="#contact" className="about-link">
+              Plan your journey
+              <span>↗</span>
+            </a>
+
+          </div>
+
         </div>
-
-        <div className="about-content">
-
-          <p className="section-label">
-            ABOUT SUVARNA TOURS & PACKAGES
-          </p>
-
-          <h2>
-            Travel should feel
-            <span> personal.</span>
-          </h2>
-
-          <p className="about-text">
-            At Suvarna Trip Planners, we believe every journey
-            should be planned around the people taking it.
-            From family holidays and college trips to
-            customized adventures across India, we help turn
-            your travel plans into memorable experiences.
-          </p>
-
-          <p className="about-text">
-            Based in Haleyangadi, Karnataka, we bring together
-            tour planning, comfortable stays and reliable
-            transportation to make your journey simpler from
-            start to finish.
-          </p>
-
-          <a href="#contact" className="text-button">
-            Let's Plan Your Journey →
-          </a>
-
-        </div>
-
-      </div>
+      </Reveal>
 
     </section>
   );

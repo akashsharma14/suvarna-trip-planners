@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-brand">
 
           <a href="#home" className="footer-logo">
-            Suverna
+            Suvarna
           </a>
 
           <p>
@@ -77,7 +77,7 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © {new Date().getFullYear()} Suverna Trip Planners.
+          © {new Date().getFullYear()} Suvarna Trip Planners.
           All rights reserved.
         </p>
 

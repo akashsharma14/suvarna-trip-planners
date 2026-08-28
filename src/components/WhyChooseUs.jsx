@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const reasons = [
   {
     number: "01",
@@ -27,7 +29,9 @@ const reasons = [
 
 function WhyChooseUs() {
   return (
+    
     <section className="why-choose-us">
+      <Reveal>
 
       <div className="why-container">
 
@@ -82,6 +86,7 @@ function WhyChooseUs() {
         </div>
 
       </div>
+      </Reveal>
 
     </section>
   );

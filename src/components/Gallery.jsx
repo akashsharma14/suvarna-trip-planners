@@ -1,22 +1,24 @@
+import Reveal from "./Reveal";
+
 const galleryImages = [
   {
-    image: "/gallery/gallery1.jpg",
+    image: "/images/gallery/gallery3.jpg",
     title: "Unforgettable journeys",
   },
   {
-    image: "/gallery/gallery2.jpg",
+    image: "/images/gallery/gallery5.jpg",
     title: "Travel with your people",
   },
   {
-    image: "/gallery/gallery3.jpg",
+    image: "/images/gallery/gallery2.jpg",
     title: "Discover India",
   },
   {
-    image: "/gallery/gallery4.jpg",
+    image: "/images/gallery/gallery6.jpg",
     title: "Memories that last",
   },
   {
-    image: "/gallery/gallery5.jpg",
+   image: "/images/gallery/gallery4.jpg",
     title: "Your journey, your way",
   },
 ];
@@ -24,8 +26,10 @@ const galleryImages = [
 function Gallery() {
   return (
     <section className="gallery" id="gallery">
-
+      <Reveal>
       <div className="gallery-container">
+
+     
 
         <div className="gallery-heading">
 
@@ -67,8 +71,9 @@ function Gallery() {
 
         </div>
 
+       
       </div>
-
+      </Reveal>
     </section>
   );
 }

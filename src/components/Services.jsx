@@ -1,3 +1,5 @@
+import Reveal from "./Reveal";
+
 const services = [
   {
     icon: "✈",
@@ -41,51 +43,61 @@ function Services() {
   return (
     <section className="services" id="services">
 
-      <div className="services-container">
+      <Reveal>
 
-        <div className="services-heading">
+        <div className="services-container">
 
-          <p className="section-label">
-            WHAT WE OFFER
-          </p>
+          <div className="services-heading">
 
-          <h2>
-            Travel made simple.
-            <br />
-            <span>Your way.</span>
-          </h2>
+            <p className="section-label">
+              WHAT WE OFFER
+            </p>
 
-          <p>
-            From transportation and accommodation to complete
-            tour planning, we take care of the details so you
-            can focus on enjoying the journey.
-          </p>
+            <h2>
+              Travel made simple.
+              <br />
+              <span>Your way.</span>
+            </h2>
 
-        </div>
+            <p>
+              From transportation and accommodation to complete
+              tour planning, we take care of the details so you
+              can focus on enjoying the journey.
+            </p>
 
-        <div className="services-grid">
+          </div>
 
-          {services.map((service) => (
-            <div className="service-card" key={service.title}>
 
-              <div className="service-icon">
-                {service.icon}
+          <div className="services-grid">
+
+            {services.map((service) => (
+
+              <div
+                className="service-card"
+                key={service.title}
+              >
+
+                <div className="service-icon">
+                  {service.icon}
+                </div>
+
+                <h3>{service.title}</h3>
+
+                <p>{service.description}</p>
+
+                <span className="service-arrow">
+                  →
+                </span>
+
               </div>
 
-              <h3>{service.title}</h3>
+            ))}
 
-              <p>{service.description}</p>
-
-              <span className="service-arrow">
-                →
-              </span>
-
-            </div>
-          ))}
+          </div>
 
         </div>
 
-      </div>
+      </Reveal>
 
     </section>
   );

@@ -1,19 +1,21 @@
+import Reveal from "./Reveal";
+
 const destinations = [
   {
     name: "Kerala",
-    image: "/destinations/kerala.jpg",
+    image: "/images/destinations/kerala.jpg",
   },
   {
     name: "Goa",
-    image: "/destinations/goa.jpg",
+    image: "/images/destinations/goa2.jpg",
   },
   {
     name: "Kashmir",
-    image: "/destinations/kashmir.jpg",
+    image: "/images/destinations/kashmir2.jpg",
   },
   {
     name: "Rajasthan",
-    image: "/destinations/rajasthan.jpg",
+    image: "/images/destinations/rajasthan2.jpg",
   },
 ];
 
@@ -21,62 +23,68 @@ function Destinations() {
   return (
     <section className="destinations" id="destinations">
 
-      <div className="destinations-container">
+      <Reveal>
 
-        <div className="destinations-heading">
+        <div className="destinations-container">
 
-          <p className="section-label">
-            DESTINATIONS
-          </p>
+          <div className="destinations-heading">
 
-          <h2>
-            You choose the
-            <span> destination.</span>
-          </h2>
+            <p className="section-label">
+              DESTINATIONS
+            </p>
 
-          <p>
-            From relaxing getaways to unforgettable adventures,
-            we help you plan trips across India based on where
-            you want to go and how you want to travel.
-          </p>
+            <h2>
+              You choose the
+              <span> destination.</span>
+            </h2>
+
+            <p>
+              From relaxing getaways to unforgettable adventures,
+              we help you plan trips across India based on where
+              you want to go and how you want to travel.
+            </p>
+
+          </div>
+
+
+          <div className="destinations-grid">
+
+            {destinations.map((destination) => (
+              <div
+                className="destination-card"
+                key={destination.name}
+              >
+
+                <img
+                  src={destination.image}
+                  alt={destination.name}
+                />
+
+                <div className="destination-overlay"></div>
+
+                <h3>{destination.name}</h3>
+
+              </div>
+            ))}
+
+          </div>
+
+
+          <div className="destination-bottom">
+
+            <p>
+              Have another destination in mind?
+            </p>
+
+            <a href="#contact">
+              Tell us where you want to go →
+            </a>
+
+          </div>
 
         </div>
 
-        <div className="destinations-grid">
-
-          {destinations.map((destination) => (
-            <div
-              className="destination-card"
-              key={destination.name}
-            >
-
-              <img
-                src={destination.image}
-                alt={destination.name}
-              />
-
-              <div className="destination-overlay"></div>
-
-              <h3>{destination.name}</h3>
-
-            </div>
-          ))}
-
-        </div>
-
-        <div className="destination-bottom">
-
-          <p>
-            Have another destination in mind?
-          </p>
-
-          <a href="#contact">
-            Tell us where you want to go →
-          </a>
-
-        </div>
-
-      </div>
+      </Reveal>
 
     </section>
   );
