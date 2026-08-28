@@ -40,11 +40,11 @@ function Destinations() {
 
             <h2>
               You choose the
-              <span className="serif-highlight">destination.</span>
+              <span className="serif-highlight"> destination.</span>
             </h2>
 
             <p>
-              From serene coastal escapes and misty mountain retreats to royal heritage trails, 
+              From serene coastal escapes and misty mountain retreats to royal heritage trails,
               we curate customized travel across India based on your desires.
             </p>
           </div>
@@ -106,4 +106,4 @@ function Destinations() {
   );
 }
 
-export default Destinations;
+export default Destinations;

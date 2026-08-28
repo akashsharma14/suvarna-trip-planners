@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE896"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9E7812"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5B8"/>
+      <stop offset="100%" stop-color="#E5B222"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0D57B"/>
+      <stop offset="100%" stop-color="#B88E19"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Circular Background Badge -->
+  <circle cx="32" cy="32" r="31" fill="#0A0B0E"/>
+  
+  <!-- Outer Gold Rings -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Sun -->
+  <circle cx="28" cy="22" r="6" fill="url(#sunGrad)"/>
+
+  <!-- Flying Birds -->
+  <path d="M17 18 Q19 16 21 18 Q23 16 25 18" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" stroke-linecap="round"/>
+
+  <!-- Mountains -->
+  <polygon points="12,38 24,21 34,34 26,38" fill="url(#goldGrad)" opacity="0.85"/>
+  <polygon points="34,34 41,25 50,38 43,38" fill="url(#goldGrad)" opacity="0.75"/>
+  <path d="M12 38 L24 21 L34 34 L41 25 L50 38" fill="none" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Palm Tree -->
+  <path d="M47 38 Q48 29 46 23" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M46 23 Q41 20 38 22" fill="none" stroke="url(#goldGrad)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M46 23 Q46 17 50 18" fill="none" stroke="url(#goldGrad)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M46 23 Q51 21 53 24" fill="none" stroke="url(#goldGrad)" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M46 23 Q43 25 41 27" fill="none" stroke="url(#goldGrad)" stroke-width="1.3" stroke-linecap="round"/>
+
+  <!-- Winding Path / Road -->
+  <path d="M20 48 C24 43, 30 38, 40 37 C44 36.5, 47 38, 49 40" fill="none" stroke="url(#roadGrad)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M16 51 C22 46, 29 41, 41 40" fill="none" stroke="url(#roadGrad)" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Water Wave -->
+  <path d="M28 47 Q35 44 43 47 Q47 48 51 46" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+</svg>

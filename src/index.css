@@ -360,17 +360,18 @@ img {
 .logo img {
   width: 54px;
   height: 54px;
-  object-fit: contain;
-  background: #ffffff;
+  object-fit: cover;
+  background: #000000;
   border-radius: 50%;
-  padding: 2px;
   border: 2px solid var(--gold);
-  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.3);
-  transition: transform var(--transition-fast);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
+  display: block;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
 .logo:hover img {
-  transform: scale(1.05) rotate(2deg);
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.5);
 }
 
 .logo-text {
@@ -934,46 +935,8 @@ img {
   color: var(--text-muted);
   font-size: 14px;
   line-height: 1.7;
-  margin-bottom: 28px;
+  margin-bottom: 0;
   flex-grow: 1;
-}
-
-.service-card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid #f0ede6;
-  padding-top: 20px;
-}
-
-.service-action-text {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text-dark);
-  transition: color var(--transition-fast);
-}
-
-.service-arrow-circle {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: #f6f5f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-dark);
-  transition: all var(--transition-fast);
-}
-
-.service-card:hover .service-arrow-circle {
-  background: var(--gold-gradient);
-  color: #0b0c10;
-  transform: translateX(4px);
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
-}
-
-.service-card:hover .service-action-text {
-  color: var(--gold-dark);
 }
 
 /* ==========================================================================

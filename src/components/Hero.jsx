@@ -38,7 +38,6 @@ function Hero() {
       {/* Content */}
       <div className="hero-content">
         <div className="hero-badge">
-          <span className="hero-badge-sparkle">✦</span>
           <span>SUVARNA TRIP PLANNERS & TOURS</span>
         </div>
 
@@ -49,7 +48,7 @@ function Hero() {
         </h1>
 
         <p className="hero-description">
-          Experience the incredible diversity of India with thoughtfully tailored tour packages, 
+          Experience the incredible diversity of India with thoughtfully tailored tour packages,
           handpicked premium stays, and seamless travel arranged around you.
         </p>
 
@@ -94,4 +93,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Hero;
