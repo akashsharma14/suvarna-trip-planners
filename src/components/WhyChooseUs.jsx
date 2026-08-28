@@ -38,7 +38,7 @@ function WhyChooseUs() {
         <div className="why-intro">
 
           <p className="section-label">
-            WHY SUVERNA
+            WHY suvarna
           </p>
 
           <h2>

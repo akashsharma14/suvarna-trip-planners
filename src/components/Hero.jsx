@@ -45,7 +45,7 @@ className={`hero-image ${
       <div className="hero-content">
 
         <p className="hero-label">
-          SUVERNA TRIP PLANNERS
+          suvarna TRIP PLANNERS
         </p>
 
         <h1>

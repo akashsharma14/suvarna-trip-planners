@@ -20,7 +20,7 @@ function About() {
           <div className="about-content">
 
             <p className="section-label">
-              ABOUT SUVERNA
+              ABOUT suvarna
             </p>
 
             <h2>
@@ -29,7 +29,7 @@ function About() {
             </h2>
 
             <p className="about-main-text">
-              Suverna Trip Planners helps you discover and
+              suvarna Trip Planners helps you discover and
               experience destinations across India with travel
               plans built around your needs.
             </p>

@@ -15,7 +15,7 @@ function Navbar() {
 
         {/* Logo */}
         <a href="#home" className="logo" onClick={closeMenu}>
-          <img src={logo} alt="Suverna Trip Planners" />
+          <img src={logo} alt="suvarna Trip Planners" />
 
           <span className="logo-name">
             Suvarna Tours & Packages
