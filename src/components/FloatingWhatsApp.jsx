@@ -1,7 +1,7 @@
 function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/918970809315?text=Hello%20Suvarna%20Trip%20Planners,%20I%20would%20like%20to%20plan%20a%20trip!"
+      href="https://wa.me/919180119315?text=Hello%20Suvarna%20Trip%20Planners,%20I%20would%20like%20to%20plan%20a%20trip!"
       target="_blank"
       rel="noopener noreferrer"
       className="floating-whatsapp"
